@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +24,36 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+
+.light-theme {
+  --color-primary: rgb(0, 0, 0);
+  /* primary400: '#000000',
+  primary600: '#000000',
+  primary80: '#000000cc',
+  primary50: '#00000080',
+  primary30: '#0000004d', */
+  --color-secondary: rgb(234, 234, 234);
+  /* secondary70: '#EAEAEAb3',
+  secondary50: '#EAEAEA80', */
+  --color-tertiary: rgb(33, 33, 33);
+  /* tertiary80: '#212121cc',
+  tertiary70: '#212121b3',
+  tertiary50: '#21212180', */
+}
+
+.dark-theme {
+  --color-primary: rgb(182, 182, 182);
+  /* primary400: 'rgb(182, 182, 182)',
+  primary600: 'rgb(182, 182, 182)',
+  primary80: 'rgba(182, 182, 182, 0.8)',
+  primary50: 'rgba(182, 182, 182, 0.5)',
+  primary30: 'rgba(182, 182, 182, 0.3)', */
+  --color-secondary: rgb(33, 33, 33);
+  /* secondary70: 'rgba(33, 33, 33, 0.7)',
+  secondary50: 'rgba(33, 33, 33, 0.5)', */
+  --color-tertiary: rgb(234, 234, 234);
+  /* tertiary80: 'rgba(234, 234, 234, 0.8)',
+  tertiary70: 'rgba(234, 234, 234, 0.7)',
+  tertiary50: 'rgba(234, 234, 234, 0.5)', */
 }
