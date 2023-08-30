@@ -14,6 +14,9 @@ const config: Config = {
         secondary: 'rgb(var(--color-secondary) / <alpha-value>)',
         tertiary: 'rgb(var(--color-tertiary) / <alpha-value>)',
       },
+      boxShadow: {
+        custom: '0px 0px 30px rgb(var(--color-primary)/0.30)',
+      },
     },
   },
   plugins: [],
