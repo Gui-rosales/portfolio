@@ -1,9 +1,9 @@
 // import {Image} from "next/image"
 import Image from 'next/image';
 import avatar from '../assets/me.jpg';
-export default function Landing() {
+export function Landing() {
   return (
-    <section className="min-h-screen w-screen flex">
+    <section className="min-h-screen w-full flex">
       {/* <Header /> */}
       <div className="w-[35%] h-screen bg-primary"></div>
 
