@@ -6,7 +6,7 @@ export function HtmlSvg() {
       viewBox="0 0 256 290"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className=""
+      className="w-1/2 h-1/2"
     >
       <path
         d="M255.11 0L231.868 260.36L127.399 289.322L23.2165 260.401L0 0H255.11Z"

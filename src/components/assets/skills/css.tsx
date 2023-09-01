@@ -6,7 +6,7 @@ export function CssScg() {
       viewBox="0 0 256 290"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className=""
+      className="w-1/2 h-1/2"
     >
       <g clip-path="url(#clip0)">
         <path
