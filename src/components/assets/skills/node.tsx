@@ -9,12 +9,12 @@ export function NodeSVG() {
     >
       <g
         id="SVGRepo_bgCarrier"
-        stroke-width="0"
+        strokeWidth="0"
       ></g>
       <g
         id="SVGRepo_tracerCarrier"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       ></g>
       <g id="SVGRepo_iconCarrier">
         {' '}
@@ -29,23 +29,23 @@ export function NodeSVG() {
           >
             {' '}
             <stop
-              stop-color="#41873F"
+              stopColor="#41873F"
               offset="0%"
             ></stop>{' '}
             <stop
-              stop-color="#418B3D"
+              stopColor="#418B3D"
               offset="32.88%"
             ></stop>{' '}
             <stop
-              stop-color="#419637"
+              stopColor="#419637"
               offset="63.52%"
             ></stop>{' '}
             <stop
-              stop-color="#3FA92D"
+              stopColor="#3FA92D"
               offset="93.19%"
             ></stop>{' '}
             <stop
-              stop-color="#3FAE2A"
+              stopColor="#3FAE2A"
               offset="100%"
             ></stop>{' '}
           </linearGradient>{' '}
@@ -62,19 +62,19 @@ export function NodeSVG() {
           >
             {' '}
             <stop
-              stop-color="#41873F"
+              stopColor="#41873F"
               offset="13.76%"
             ></stop>{' '}
             <stop
-              stop-color="#54A044"
+              stopColor="#54A044"
               offset="40.32%"
             ></stop>{' '}
             <stop
-              stop-color="#66B848"
+              stopColor="#66B848"
               offset="71.36%"
             ></stop>{' '}
             <stop
-              stop-color="#6CC04A"
+              stopColor="#6CC04A"
               offset="90.81%"
             ></stop>{' '}
           </linearGradient>{' '}
@@ -87,19 +87,19 @@ export function NodeSVG() {
           >
             {' '}
             <stop
-              stop-color="#6CC04A"
+              stopColor="#6CC04A"
               offset="9.192%"
             ></stop>{' '}
             <stop
-              stop-color="#66B848"
+              stopColor="#66B848"
               offset="28.64%"
             ></stop>{' '}
             <stop
-              stop-color="#54A044"
+              stopColor="#54A044"
               offset="59.68%"
             ></stop>{' '}
             <stop
-              stop-color="#41873F"
+              stopColor="#41873F"
               offset="86.24%"
             ></stop>{' '}
           </linearGradient>{' '}
@@ -112,19 +112,19 @@ export function NodeSVG() {
           >
             {' '}
             <stop
-              stop-color="#6CC04A"
+              stopColor="#6CC04A"
               offset="9.192%"
             ></stop>{' '}
             <stop
-              stop-color="#66B848"
+              stopColor="#66B848"
               offset="28.64%"
             ></stop>{' '}
             <stop
-              stop-color="#54A044"
+              stopColor="#54A044"
               offset="59.68%"
             ></stop>{' '}
             <stop
-              stop-color="#41873F"
+              stopColor="#41873F"
               offset="86.24%"
             ></stop>{' '}
           </linearGradient>{' '}
@@ -137,19 +137,19 @@ export function NodeSVG() {
           >
             {' '}
             <stop
-              stop-color="#6CC04A"
+              stopColor="#6CC04A"
               offset="9.192%"
             ></stop>{' '}
             <stop
-              stop-color="#66B848"
+              stopColor="#66B848"
               offset="28.64%"
             ></stop>{' '}
             <stop
-              stop-color="#54A044"
+              stopColor="#54A044"
               offset="59.68%"
             ></stop>{' '}
             <stop
-              stop-color="#41873F"
+              stopColor="#41873F"
               offset="86.24%"
             ></stop>{' '}
           </linearGradient>{' '}
@@ -162,19 +162,19 @@ export function NodeSVG() {
           >
             {' '}
             <stop
-              stop-color="#6CC04A"
+              stopColor="#6CC04A"
               offset="9.192%"
             ></stop>{' '}
             <stop
-              stop-color="#66B848"
+              stopColor="#66B848"
               offset="28.64%"
             ></stop>{' '}
             <stop
-              stop-color="#54A044"
+              stopColor="#54A044"
               offset="59.68%"
             ></stop>{' '}
             <stop
-              stop-color="#41873F"
+              stopColor="#41873F"
               offset="86.24%"
             ></stop>{' '}
           </linearGradient>{' '}
@@ -187,23 +187,23 @@ export function NodeSVG() {
           >
             {' '}
             <stop
-              stop-color="#41873F"
+              stopColor="#41873F"
               offset="0%"
             ></stop>{' '}
             <stop
-              stop-color="#418B3D"
+              stopColor="#418B3D"
               offset="32.88%"
             ></stop>{' '}
             <stop
-              stop-color="#419637"
+              stopColor="#419637"
               offset="63.52%"
             ></stop>{' '}
             <stop
-              stop-color="#3FA92D"
+              stopColor="#3FA92D"
               offset="93.19%"
             ></stop>{' '}
             <stop
-              stop-color="#3FAE2A"
+              stopColor="#3FAE2A"
               offset="100%"
             ></stop>{' '}
           </linearGradient>{' '}
@@ -248,32 +248,32 @@ export function NodeSVG() {
               <path d="M109.797 91.305V35.019c0-2.08-1.271-4.045-3.12-5.085L57.786 1.85a5.106 5.106 0 0 0-1.848-.693l53.511 91.42c.231-.347.347-.809.347-1.271zM3.12 29.934C1.272 30.974 0 32.94 0 35.02v56.286c0 2.08 1.387 4.045 3.12 5.085l48.889 28.085c1.156.693 2.427.925 3.814.693L3.467 29.818l-.346.116z"></path>{' '}
               <path
                 fill="url(#e)"
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M50.391.809l-.693.347h.924l-.231-.347z"
                 transform="translate(0 -9.246)"
               ></path>{' '}
               <path
                 d="M106.792 105.636c1.387-.809 2.427-2.196 2.89-3.698L56.053 10.402c-1.387-.231-2.89-.116-4.16.693L3.351 39.065l52.355 95.465a8.057 8.057 0 0 0 2.196-.693l48.889-28.2z"
                 fill="url(#f)"
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 transform="translate(0 -9.246)"
               ></path>{' '}
               <path
                 fill="url(#g)"
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M111.3 104.712l-.347-.578v.809l.346-.231z"
                 transform="translate(0 -9.246)"
               ></path>{' '}
               <path
                 d="M106.792 105.636l-48.773 28.085a6.973 6.973 0 0 1-2.196.693l.925 1.734 54.089-31.32v-.694l-1.387-2.312c-.231 1.618-1.271 3.005-2.658 3.814z"
                 fill="url(#h)"
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 transform="translate(0 -9.246)"
               ></path>{' '}
               <path
                 d="M106.792 105.636l-48.773 28.085a6.973 6.973 0 0 1-2.196.693l.925 1.734 54.089-31.32v-.694l-1.387-2.312c-.231 1.618-1.271 3.005-2.658 3.814z"
                 fill="url(#i)"
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 transform="translate(0 -9.246)"
               ></path>{' '}
             </g>{' '}

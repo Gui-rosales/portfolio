@@ -1,5 +1,6 @@
 import { ExperienceSVG } from './assets/experience';
 import { BriefcaseSVG } from './assets/briefcase';
+import { Fade } from 'react-awesome-reveal';
 
 interface IExperience {
   period: string;
