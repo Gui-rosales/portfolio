@@ -1,11 +1,34 @@
 // import {Image} from "next/image"
 import Image from 'next/image';
 import avatar from '../assets/me.jpg';
+import { ImLinkedin, ImGithub, ImMail } from 'react-icons/im';
 export function Landing() {
   return (
     <section className="min-h-screen w-full flex">
       {/* <Header /> */}
-      <div className="w-[35%] h-screen bg-primary"></div>
+      <div className="w-[35%] h-screen bg-primary flex justify-center items-end">
+        <div className="w-full h-[30%] flex items-center justify-center gap-4 ">
+          <div
+            onClick={() =>
+              open(
+                'https://www.linkedin.com/in/guilherme-rosales-alexandre-a269751b0/'
+              )
+            }
+            className="w-[15%] h-[15%] flex items-center justify-center hover:cursor-pointer hover:scale-125 ease-in-out duration-300"
+          >
+            <ImLinkedin style={{ width: '100%', height: '100%' }} />
+          </div>
+          <div
+            onClick={() => open('https://github.com/Gui-rosales')}
+            className="w-[15%] h-[15%] flex items-center justify-center hover:cursor-pointer hover:scale-125 ease-in-out duration-300"
+          >
+            <ImGithub style={{ width: '100%', height: '100%' }} />
+          </div>
+          <div className="w-[15%] h-[15%] flex items-center justify-center no-underline hover:cursor-pointer hover:scale-125 ease-in-out duration-300">
+            <ImMail style={{ width: '100%', height: '100%' }} />
+          </div>
+        </div>
+      </div>
 
       <div className="w-[65%] h-screen bg-secondary flex flex-col items-center justify-center">
         <Image

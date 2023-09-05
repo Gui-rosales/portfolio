@@ -39,7 +39,7 @@ const projects = [
 
 export function Projects() {
   return (
-    <div className="w-full h-screen bg-secondary flex flex-col items-center">
+    <section className="w-full h-screen bg-secondary flex flex-col items-center">
       <div className="w-full h-[15%] flex items-center justify-center">
         <h1 className="text-4xl text-primary">Projetos</h1>
       </div>
@@ -47,15 +47,15 @@ export function Projects() {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="w-1/4 h-[50%] bg-primary50 rounded-2xl flex flex-col items-center justify-around relative group hover:cursor-pointer"
+            className="w-1/4 h-[50%] bg-primary50 rounded-2xl flex flex-col items-center justify-around relative group hover:cursor-pointer overflow-hidden"
             onClick={() => open(project.repoLink)}
           >
             <h2 className="text-2xl text-white">{project.title}</h2>
             {project.bgImage}
-            <p className="flex -z-20 absolute w-4/5 h-[40%] p-5 left-0 top-10 text-secondary bg-secondary rounded-r-2xl transition-transform duration-500 translate-x-[-110%] translate-y-[10%] group-hover:translate-x-[-2%] group-hover:translate-y-[10%] group-hover:text-tertiary group-hover:z-10">
+            <p className="flex -z-20 absolute w-4/5 h-[40%] p-5 left-0 top-10 text-secondary bg-secondary rounded-r-2xl transition-transform duration-1000 translate-x-[-110%] translate-y-[10%] group-hover:translate-x-[-2%] group-hover:translate-y-[10%] group-hover:text-tertiary group-hover:z-10">
               {project.description}
             </p>
-            <div className="flex -z-20 absolute w-4/5 h-1/3 right-0 bottom-7 text-secondary bg-secondary rounded-l-2xl transition-transform duration-500 translate-x-[100%] translate-y-[10%] group-hover:translate-x-[2%] group-hover:translate-y-[10%] group-hover:text-tertiary group-hover:z-10">
+            <div className="flex -z-20 absolute w-4/5 h-1/3 right-0 bottom-7 text-secondary bg-secondary rounded-l-2xl transition-transform duration-1000 translate-x-[100%] translate-y-[10%] group-hover:translate-x-[2%] group-hover:translate-y-[10%] group-hover:text-tertiary group-hover:z-10">
               <div className="w-full h-full p-2 hidden group-hover:flex group-hover:justify-around group-hover:items-center">
                 {project.techs.map((tech) => (
                   <>{tech}</>
@@ -65,6 +65,6 @@ export function Projects() {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 }

@@ -23,7 +23,7 @@ const experiences: IExperience[] = [
 
 export function Experience() {
   return (
-    <div className="w-full h-screen min-h-screen bg-secondary flex flex-col">
+    <section className="w-full h-screen min-h-screen bg-secondary flex flex-col">
       <div className="w-full h-[15%] flex justify-end items-center p-5">
         <h1 className="text-4xl text-primary mr-16 2xl:mr-36">Experiência</h1>
       </div>
@@ -53,6 +53,6 @@ export function Experience() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
