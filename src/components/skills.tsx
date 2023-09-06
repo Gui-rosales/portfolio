@@ -57,17 +57,17 @@ export const skillData: ISkillData[] = [
 export function Skills() {
   return (
     <section className="min-h-screen w-full flex flex-col bg-secondary items-center">
-      <div className="w-full h-[20vh] flex items-center justify-around py-5 px-10">
-        <div className="w-3 h-3 rounded-[50%] bg-primary"></div>
-        <div className="w-3 h-3 rounded-[50%] bg-primary"></div>
-        <div className="w-[90%] h-2 bg-primary rounded-2xl"></div>
-        <div className="w-3 h-3 rounded-[50%] bg-primary"></div>
-        <div className="w-3 h-3 rounded-[50%] bg-primary"></div>
+      <div className="w-full h-[20vh] flex items-center justify-around py-5 px-10 max-[560px]:py-3 max-[560px]:px-5">
+        <div className="w-3 h-3 rounded-[50%] bg-primary max-[560px]:w-2 max-[560px]:h-2"></div>
+        <div className="w-3 h-3 rounded-[50%] bg-primary max-[560px]:w-2 max-[560px]:h-2"></div>
+        <div className="w-[90%] h-2 bg-primary rounded-2xl max-[560px]:w-4/5"></div>
+        <div className="w-3 h-3 rounded-[50%] bg-primary max-[560px]:w-2 max-[560px]:h-2"></div>
+        <div className="w-3 h-3 rounded-[50%] bg-primary max-[560px]:w-2 max-[560px]:h-2"></div>
       </div>
       <div className="flex w-full h-[28vh] justify-around py-5 px-10">
         <h1 className="text-5xl text-primary">Skills</h1>
       </div>
-      <div className="flex w-full h-[28vh] justify-around py-5 px-10">
+      <div className="flex w-full h-[28vh] justify-around py-5 px-10 max-[560px]:h-[35vh]">
         <Marquee
           gradient={false}
           speed={80}

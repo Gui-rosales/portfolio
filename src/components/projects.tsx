@@ -43,11 +43,11 @@ export function Projects() {
       <div className="w-full h-[15%] flex items-center justify-center">
         <h1 className="text-4xl text-primary">Projetos</h1>
       </div>
-      <div className="w-4/5 h-[73%] flex mt-10 justify-around overflow-x-hidden flex-wrap">
+      <div className="w-4/5 h-[73%] flex mt-10 justify-around overflow-x-hidden flex-wrap max-[560px]:flex-col max-[560px]:items-center max-[560px]:justify-evenly max-[560px]:h-[90%] max-[560px]:mt-0">
         {projects.map((project, index) => (
           <div
             key={index}
-            className="w-1/4 h-[50%] bg-primary50 rounded-2xl flex flex-col items-center justify-around relative group hover:cursor-pointer overflow-hidden"
+            className="w-1/4 h-[50%] bg-primary50 rounded-2xl flex flex-col items-center justify-around relative group hover:cursor-pointer overflow-hidden max-[560px]:w-4/5 max-[560px]:h-[40%]"
             onClick={() => open(project.repoLink)}
           >
             <h2 className="text-2xl text-white">{project.title}</h2>
@@ -58,7 +58,7 @@ export function Projects() {
             <div className="flex -z-20 absolute w-4/5 h-1/3 right-0 bottom-7 text-secondary bg-secondary rounded-l-2xl transition-transform duration-1000 translate-x-[100%] translate-y-[10%] group-hover:translate-x-[2%] group-hover:translate-y-[10%] group-hover:text-tertiary group-hover:z-10">
               <div className="w-full h-full p-2 hidden group-hover:flex group-hover:justify-around group-hover:items-center">
                 {project.techs.map((tech) => (
-                  <>{tech}</>
+                  <div key={tech.key}>{tech}</div>
                 ))}
               </div>
             </div>
