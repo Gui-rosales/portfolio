@@ -29,7 +29,7 @@ export function Landing() {
         </div>
       </div>
 
-      <div className="w-[65%] h-screen bg-secondary flex flex-col items-center justify-center max-[560px]:w-full max-[560px]:h-[70vh] max-[560px]:w-[full]">
+      <div className="w-[65%] h-screen bg-secondary flex flex-col items-center justify-center max-[560px]:h-[70vh] max-[560px]:w-[full]">
         <Image
           src={avatar}
           alt="foto-perfil"
