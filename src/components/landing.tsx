@@ -26,9 +26,6 @@ export function Landing() {
           >
             <ImGithub style={{ width: '100%', height: '100%' }} />
           </div>
-          <div className="w-[15%] h-[15%] flex items-center justify-center no-underline hover:cursor-pointer hover:scale-125 ease-in-out duration-300 max-[560px]:hidden">
-            <ImMail style={{ width: '100%', height: '100%' }} />
-          </div>
         </div>
       </div>
 
@@ -48,7 +45,11 @@ export function Landing() {
           </p>
 
           <div className="w-full mt-10 flex justify-around items-center">
-            <a href="">
+            <a
+              href="/Guilherme_Rosales_CV.pdf"
+              download={'Guilherme_Rosales_CV.pdf'}
+              title="Guilherme_Rosales_CV"
+            >
               <button className="w-36 p-2 text-primary bg-transparent border-4 border-solid border-primary rounded-2xl hover:bg-primary hover:text-secondary hover:border-primary ease-in-out duration-300 max-[560px]:w-26">
                 Download CV
               </button>

@@ -15,6 +15,11 @@ const experiences: IExperience[] = [
     company: 'Wizard Idiomas',
   },
   {
+    period: '2022 - 2023',
+    function: 'Desenvolvedor de Software ',
+    company: 'IFMT',
+  },
+  {
     period: '2023 - Atualmente',
     function: 'Estagiário em desenvolvimento de software',
     company: 'Canex Exportação',
